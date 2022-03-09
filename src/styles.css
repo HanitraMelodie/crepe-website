@@ -1,0 +1,109 @@
+
+      .page {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background: linear-gradient(
+          109.6deg,
+          rgb(240, 228, 122) 11.2%,
+          rgb(253, 145, 212) 54.5%,
+          rgb(176, 222, 234) 99.6%
+        );
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+        color: #393e46;
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        text-decoration: underline;
+        color: #fff;
+        margin: 0 auto;
+        padding: 20px 10px;
+      }
+      h2 {
+        color: #fff;
+        padding: 20px 10px;
+        margin: 0 auto;
+        font-size: 35px;
+        border: 5px solid #fff;
+        border-radius: 30px;
+        max-width: 600px;
+      }
+      h3 {
+        font-size: 20px;
+        padding: 0 auto;
+        margin: 10px auto;
+        text-decoration: underline;
+      }
+      h4 {
+        font-size: 25px;
+        color: #222831;
+        padding: 0 auto;
+        margin: 0 auto;
+        text-decoration: underline;
+      }
+      img {
+        width: 500px;
+        display: block; /*Change the format of image from in line to block element */
+        margin: 0 auto;
+        border-radius: 20px;
+      }
+
+      p {
+        margin: 0 auto;
+        padding: 0px 0px;
+        font-style: italic;
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        text-align: center;
+        padding: 20px 10px;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 20px;
+      }
+      li:hover {
+        color: #393e46;
+        background: #fff;
+      }
+      p {
+        max-width: 780px;
+        line-height: 32px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 20px;
+        background: #393e46;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 24px;
+        transition: all 200ms ease-in-out;
+        box-shadow: 5px 5px 5px 5px;
+      }
+      button:hover {
+        color: #393e46;
+        background: #fff;
+        cursor: pointer;
+      }
+      .veganrecipe {
+        padding: 20px 10px;
+        margin: 0 auto;
+        display: block;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: #222831;
+      }
+      .veganrecipe:hover {
+        text-decoration: underline;
+      }
+      p span {
+        background: #222831;
+        color: #fff;
+      }
